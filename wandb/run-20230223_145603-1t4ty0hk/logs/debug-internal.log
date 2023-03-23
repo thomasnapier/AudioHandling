@@ -1,0 +1,16 @@
+2023-02-23 14:56:10,265 INFO    MainThread:33640 [internal.py:wandb_internal():87] W&B internal server running at pid: 33640, started at: 2023-02-23 14:56:10.265447
+2023-02-23 14:56:10,266 INFO    HandlerThread:33640 [handler.py:finish():841] shutting down handler
+2023-02-23 14:56:10,267 ERROR   MainThread:33640 [internal.py:wandb_internal():175] Thread SenderThread:
+Traceback (most recent call last):
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_util.py", line 49, in run
+    self._run()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_util.py", line 89, in _run
+    self._setup()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal.py", line 320, in _setup
+    self._sm = sender.SendManager(
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 266, in __init__
+    self._job_builder = JobBuilder(settings)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\job_builder.py", line 78, in __init__
+    self._disable = settings.disable_job_creation
+AttributeError: 'SettingsStatic' object has no attribute 'disable_job_creation'
+2023-02-23 14:56:12,275 INFO    MainThread:33640 [internal.py:handle_exit():77] Internal process exited

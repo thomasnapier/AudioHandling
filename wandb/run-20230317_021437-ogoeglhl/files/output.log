@@ -1,0 +1,15 @@
+Collecting sklearn
+  Downloading sklearn-0.0.post1.tar.gz (3.6 kB)
+Building wheels for collected packages: sklearn
+  Building wheel for sklearn (setup.py): started
+  Building wheel for sklearn (setup.py): finished with status 'done'
+  Created wheel for sklearn: filename=sklearn-0.0.post1-py3-none-any.whl size=2959 sha256=fe6ca0461a3ec8bb6df9f5f0cbe04652d57ee164886054659f29450f6a95122f
+  Stored in directory: c:\users\thomas\appdata\local\pip\cache\wheels\f8\e0\3d\9d0c2020c44a519b9f02ab4fa6d2a4a996c98d79ab2f569fa1
+Successfully built sklearn
+Installing collected packages: sklearn
+Successfully installed sklearn-0.0.post1
+Note: you may need to restart the kernel to use updated packages.
+PyTorch Version:  1.13.1+cu117
+Torchvision Version:  0.14.1+cu117
+PyTorch Version:  1.13.1+cu117
+Torchvision Version:  0.14.1+cu117

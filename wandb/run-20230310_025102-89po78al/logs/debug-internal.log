@@ -1,0 +1,329 @@
+2023-03-10 02:51:02,489 INFO    StreamThr :27832 [internal.py:wandb_internal():87] W&B internal server running at pid: 27832, started at: 2023-03-10 02:51:02.489082
+2023-03-10 02:51:02,490 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status
+2023-03-10 02:51:02,496 INFO    WriterThread:27832 [datastore.py:open_for_write():85] open: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\run-89po78al.wandb
+2023-03-10 02:51:02,497 DEBUG   SenderThread:27832 [sender.py:send():336] send: header
+2023-03-10 02:51:02,537 DEBUG   SenderThread:27832 [sender.py:send():336] send: run
+2023-03-10 02:51:03,171 INFO    SenderThread:27832 [dir_watcher.py:__init__():216] watching files in: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files
+2023-03-10 02:51:03,171 INFO    SenderThread:27832 [sender.py:_start_run_threads():1067] run started: 89po78al with start time 1678380662.492082
+2023-03-10 02:51:03,171 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: summary_record
+2023-03-10 02:51:03,172 INFO    SenderThread:27832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 02:51:03,173 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: check_version
+2023-03-10 02:51:03,173 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: check_version
+2023-03-10 02:51:03,274 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: run_start
+2023-03-10 02:51:03,290 DEBUG   HandlerThread:27832 [system_info.py:__init__():31] System info init
+2023-03-10 02:51:03,290 DEBUG   HandlerThread:27832 [system_info.py:__init__():46] System info init done
+2023-03-10 02:51:03,290 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:03,290 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:03,290 INFO    HandlerThread:27832 [system_monitor.py:probe():172] Collecting system info
+2023-03-10 02:51:03,297 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:03,297 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:03,298 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started gpu
+2023-03-10 02:51:03,298 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started memory
+2023-03-10 02:51:03,307 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started network
+2023-03-10 02:51:03,318 DEBUG   HandlerThread:27832 [system_info.py:probe():195] Probing system
+2023-03-10 02:51:03,333 DEBUG   HandlerThread:27832 [system_info.py:_probe_git():180] Probing git
+2023-03-10 02:51:03,394 DEBUG   HandlerThread:27832 [system_info.py:_probe_git():188] Probing git done
+2023-03-10 02:51:03,394 DEBUG   HandlerThread:27832 [system_info.py:probe():241] Probing system done
+2023-03-10 02:51:03,394 DEBUG   HandlerThread:27832 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.12', 'heartbeatAt': '2023-03-09T16:51:03.319084', 'startedAt': '2023-03-09T16:51:02.479083', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/thomasnapier/AudioHandling.git', 'commit': '76c6dcb921022a640c3f649697c31dd249c04e57'}, 'email': 'thomas.napier@my.jcu.edu.au', 'root': 'c:/Users/Thomas/AudioHandling', 'host': 'NapierPC', 'username': 'Thomas', 'executable': 'c:\\Users\\Thomas\\conda\\envs\\audiohandling\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'total': 930.9460792541504, 'used': 783.925651550293}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.781356811523438}}
+2023-03-10 02:51:03,394 INFO    HandlerThread:27832 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-10 02:51:03,394 INFO    HandlerThread:27832 [system_monitor.py:probe():185] Publishing system info
+2023-03-10 02:51:03,395 DEBUG   HandlerThread:27832 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-10 02:51:03,395 DEBUG   HandlerThread:27832 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-10 02:51:03,395 DEBUG   HandlerThread:27832 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-10 02:51:04,181 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\conda-environment.yaml
+2023-03-10 02:51:04,181 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\requirements.txt
+2023-03-10 02:51:04,181 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-summary.json
+2023-03-10 02:51:07,528 DEBUG   HandlerThread:27832 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-10 02:51:07,529 INFO    HandlerThread:27832 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-10 02:51:07,538 DEBUG   SenderThread:27832 [sender.py:send():336] send: files
+2023-03-10 02:51:07,538 INFO    SenderThread:27832 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-10 02:51:07,538 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:07,545 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-10 02:51:07,546 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: stop_status
+2023-03-10 02:51:07,547 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:07,547 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:07,547 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:07,547 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:07,554 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:07,555 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:07,555 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:07,555 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:07,605 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined gpu
+2023-03-10 02:51:07,605 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined memory
+2023-03-10 02:51:07,605 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined network
+2023-03-10 02:51:07,605 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:07,606 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:07,606 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:07,606 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:07,606 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:07,606 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:07,611 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:07,611 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:07,611 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:07,612 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:07,612 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:07,612 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:07,639 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:07,639 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:07,639 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:07,639 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:07,645 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:07,645 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:07,645 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:07,645 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:07,645 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:07,645 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:07,645 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:07,645 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:07,645 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:07,646 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:07,670 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:07,670 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:07,671 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:07,671 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:07,677 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:07,677 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:07,677 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:07,677 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:07,677 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:07,678 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:07,678 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:07,678 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:07,678 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:07,678 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:07,712 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:07,712 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:07,712 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:07,712 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:07,719 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:07,719 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:07,719 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started gpu
+2023-03-10 02:51:07,720 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started memory
+2023-03-10 02:51:07,726 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started network
+2023-03-10 02:51:07,845 DEBUG   SenderThread:27832 [sender.py:send():336] send: telemetry
+2023-03-10 02:51:07,845 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:07,846 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:07,846 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:07,846 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:07,904 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:07,904 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:07,904 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:07,904 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:07,911 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:07,911 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:07,912 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:07,912 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:07,966 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined gpu
+2023-03-10 02:51:07,966 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined memory
+2023-03-10 02:51:07,966 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined network
+2023-03-10 02:51:07,966 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:07,967 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:07,967 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:07,967 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:07,968 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:07,978 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:07,978 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:07,978 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started gpu
+2023-03-10 02:51:07,979 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started memory
+2023-03-10 02:51:07,990 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started network
+2023-03-10 02:51:08,208 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\conda-environment.yaml
+2023-03-10 02:51:08,208 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-metadata.json
+2023-03-10 02:51:08,208 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\output.log
+2023-03-10 02:51:08,247 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:08,247 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:08,247 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:08,247 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:08,254 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:08,254 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:08,255 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:08,255 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:08,298 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined gpu
+2023-03-10 02:51:08,298 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined memory
+2023-03-10 02:51:08,298 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined network
+2023-03-10 02:51:08,298 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:08,480 INFO    wandb-upload_0:27832 [upload_job.py:push():138] Uploaded file C:\Users\Thomas\AppData\Local\Temp\tmpx5pilbexwandb\qfhb17ig-wandb-metadata.json
+2023-03-10 02:51:10,218 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\output.log
+2023-03-10 02:51:13,325 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:18,346 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:22,541 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 02:51:22,541 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 02:51:23,358 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:27,558 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 02:51:28,378 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:32,577 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 02:51:33,397 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:34,307 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\config.yaml
+2023-03-10 02:51:37,599 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-10 02:51:38,788 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:40,053 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:40,053 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:40,053 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:40,053 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:40,059 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:40,059 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:40,059 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:40,059 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:40,059 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:40,060 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:40,060 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:40,060 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:40,060 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:40,060 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:40,061 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:40,077 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:40,077 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:40,077 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:40,077 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:40,085 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:40,085 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: pause
+2023-03-10 02:51:40,086 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:40,086 INFO    HandlerThread:27832 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-10 02:51:40,086 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:40,087 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started gpu
+2023-03-10 02:51:40,087 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:40,087 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:40,087 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:40,087 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:40,087 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:40,148 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined gpu
+2023-03-10 02:51:40,148 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: resume
+2023-03-10 02:51:40,148 INFO    HandlerThread:27832 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-10 02:51:40,148 INFO    HandlerThread:27832 [system_monitor.py:start():151] Starting system monitor
+2023-03-10 02:51:40,148 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:40,148 INFO    SystemMonitor:27832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-10 02:51:40,149 DEBUG   SenderThread:27832 [sender.py:send():336] send: telemetry
+2023-03-10 02:51:40,154 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started cpu
+2023-03-10 02:51:40,154 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started disk
+2023-03-10 02:51:40,154 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started gpu
+2023-03-10 02:51:40,155 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started memory
+2023-03-10 02:51:40,161 INFO    SystemMonitor:27832 [interfaces.py:start():168] Started network
+2023-03-10 02:51:40,205 DEBUG   SenderThread:27832 [sender.py:send():336] send: exit
+2023-03-10 02:51:40,205 INFO    SenderThread:27832 [sender.py:send_exit():559] handling exit code: 0
+2023-03-10 02:51:40,205 INFO    SenderThread:27832 [sender.py:send_exit():561] handling runtime: 5
+2023-03-10 02:51:40,205 INFO    SenderThread:27832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 02:51:40,205 INFO    SenderThread:27832 [sender.py:send_exit():567] send defer
+2023-03-10 02:51:40,205 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,205 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-10 02:51:40,206 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,206 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-10 02:51:40,206 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 1
+2023-03-10 02:51:40,206 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,206 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-10 02:51:40,206 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,206 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-10 02:51:40,206 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 2
+2023-03-10 02:51:40,206 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,206 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-10 02:51:40,206 INFO    HandlerThread:27832 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-10 02:51:40,206 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-10 02:51:40,213 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-10 02:51:40,213 DEBUG   SystemMonitor:27832 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-10 02:51:40,214 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined cpu
+2023-03-10 02:51:40,214 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined disk
+2023-03-10 02:51:40,256 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined gpu
+2023-03-10 02:51:40,256 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined memory
+2023-03-10 02:51:40,256 INFO    HandlerThread:27832 [interfaces.py:finish():175] Joined network
+2023-03-10 02:51:40,256 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,256 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-10 02:51:40,256 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 3
+2023-03-10 02:51:40,256 DEBUG   SenderThread:27832 [sender.py:send():336] send: stats
+2023-03-10 02:51:40,256 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,256 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-10 02:51:40,256 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,256 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-10 02:51:40,257 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 4
+2023-03-10 02:51:40,257 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,257 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-10 02:51:40,257 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,257 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-10 02:51:40,257 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 5
+2023-03-10 02:51:40,257 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,257 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-10 02:51:40,257 DEBUG   SenderThread:27832 [sender.py:send():336] send: summary
+2023-03-10 02:51:40,257 INFO    SenderThread:27832 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-10 02:51:40,257 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,258 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-10 02:51:40,258 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 6
+2023-03-10 02:51:40,258 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,258 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-10 02:51:40,258 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,258 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-10 02:51:40,259 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: status_report
+2023-03-10 02:51:40,335 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-summary.json
+2023-03-10 02:51:40,602 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 7
+2023-03-10 02:51:40,602 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:40,602 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-10 02:51:40,602 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:40,602 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-10 02:51:41,216 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 02:51:41,340 INFO    Thread-17 :27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\config.yaml
+2023-03-10 02:51:42,052 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 8
+2023-03-10 02:51:42,052 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 02:51:42,052 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:42,052 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-10 02:51:42,052 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:42,052 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-10 02:51:42,052 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 9
+2023-03-10 02:51:42,053 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:42,053 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-10 02:51:42,053 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:42,053 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-10 02:51:42,053 INFO    SenderThread:27832 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-10 02:51:42,221 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 02:51:42,344 INFO    SenderThread:27832 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\output.log
+2023-03-10 02:51:42,344 INFO    SenderThread:27832 [dir_watcher.py:finish():392] scan: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files
+2023-03-10 02:51:42,344 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\conda-environment.yaml conda-environment.yaml
+2023-03-10 02:51:42,345 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\config.yaml config.yaml
+2023-03-10 02:51:42,345 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\output.log output.log
+2023-03-10 02:51:42,347 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\requirements.txt requirements.txt
+2023-03-10 02:51:42,349 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-metadata.json wandb-metadata.json
+2023-03-10 02:51:42,349 INFO    SenderThread:27832 [dir_watcher.py:finish():406] scan save: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-summary.json wandb-summary.json
+2023-03-10 02:51:42,351 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 10
+2023-03-10 02:51:42,351 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 02:51:42,351 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:42,351 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-10 02:51:42,352 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:42,352 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-10 02:51:42,352 INFO    SenderThread:27832 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-10 02:51:43,029 INFO    wandb-upload_0:27832 [upload_job.py:push():138] Uploaded file c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\conda-environment.yaml
+2023-03-10 02:51:43,197 INFO    wandb-upload_3:27832 [upload_job.py:push():138] Uploaded file c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\requirements.txt
+2023-03-10 02:51:43,202 INFO    wandb-upload_4:27832 [upload_job.py:push():138] Uploaded file c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\wandb-summary.json
+2023-03-10 02:51:43,224 INFO    wandb-upload_2:27832 [upload_job.py:push():138] Uploaded file c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\output.log
+2023-03-10 02:51:43,225 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 02:51:43,225 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 02:51:43,247 INFO    wandb-upload_1:27832 [upload_job.py:push():138] Uploaded file c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\files\config.yaml
+2023-03-10 02:51:43,456 INFO    Thread-16 :27832 [sender.py:transition_state():587] send defer: 11
+2023-03-10 02:51:43,456 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:43,456 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-10 02:51:43,457 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:43,457 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-10 02:51:43,457 INFO    SenderThread:27832 [file_pusher.py:join():167] waiting for file pusher
+2023-03-10 02:51:43,457 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 12
+2023-03-10 02:51:43,457 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:43,457 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-10 02:51:43,457 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:43,457 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-10 02:51:43,813 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 13
+2023-03-10 02:51:43,814 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:43,814 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-10 02:51:43,814 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:43,814 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-10 02:51:43,814 INFO    SenderThread:27832 [sender.py:transition_state():587] send defer: 14
+2023-03-10 02:51:43,814 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: defer
+2023-03-10 02:51:43,814 DEBUG   SenderThread:27832 [sender.py:send():336] send: final
+2023-03-10 02:51:43,814 INFO    HandlerThread:27832 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-10 02:51:43,814 DEBUG   SenderThread:27832 [sender.py:send():336] send: footer
+2023-03-10 02:51:43,814 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: defer
+2023-03-10 02:51:43,814 INFO    SenderThread:27832 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-10 02:51:43,815 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-10 02:51:43,815 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: server_info
+2023-03-10 02:51:43,815 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-10 02:51:43,815 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: poll_exit
+2023-03-10 02:51:43,815 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-10 02:51:43,815 DEBUG   SenderThread:27832 [sender.py:send_request():363] send_request: server_info
+2023-03-10 02:51:44,396 DEBUG   HandlerThread:27832 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-10 02:51:44,396 INFO    HandlerThread:27832 [handler.py:finish():841] shutting down handler
+2023-03-10 02:51:44,816 INFO    WriterThread:27832 [datastore.py:close():299] close: c:\Users\Thomas\AudioHandling\wandb\run-20230310_025102-89po78al\run-89po78al.wandb
+2023-03-10 02:51:45,404 INFO    SenderThread:27832 [sender.py:finish():1493] shutting down sender
+2023-03-10 02:51:45,404 INFO    SenderThread:27832 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-10 02:51:45,404 INFO    SenderThread:27832 [file_pusher.py:join():167] waiting for file pusher

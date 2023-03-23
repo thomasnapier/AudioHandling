@@ -1,0 +1,46 @@
+2023-03-17 02:15:23,179 INFO    StreamThr :29728 [internal.py:wandb_internal():87] W&B internal server running at pid: 29728, started at: 2023-03-17 02:15:23.178549
+2023-03-17 02:15:23,179 DEBUG   HandlerThread:29728 [handler.py:handle_request():144] handle_request: status
+2023-03-17 02:15:23,180 INFO    WriterThread:29728 [datastore.py:open_for_write():85] open: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\run-mxlrj8em.wandb
+2023-03-17 02:15:23,181 DEBUG   SenderThread:29728 [sender.py:send():336] send: header
+2023-03-17 02:15:23,181 DEBUG   SenderThread:29728 [sender.py:send():336] send: run
+2023-03-17 02:15:23,825 INFO    SenderThread:29728 [dir_watcher.py:__init__():219] watching files in: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files
+2023-03-17 02:15:23,825 INFO    SenderThread:29728 [sender.py:_start_run_threads():1078] run started: mxlrj8em with start time 1678983322.188909
+2023-03-17 02:15:23,825 DEBUG   HandlerThread:29728 [handler.py:handle_request():144] handle_request: check_version
+2023-03-17 02:15:23,825 DEBUG   SenderThread:29728 [sender.py:send_request():363] send_request: summary_record
+2023-03-17 02:15:23,825 INFO    SenderThread:29728 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-17 02:15:23,825 DEBUG   SenderThread:29728 [sender.py:send_request():363] send_request: check_version
+2023-03-17 02:15:23,920 DEBUG   HandlerThread:29728 [handler.py:handle_request():144] handle_request: run_start
+2023-03-17 02:15:23,926 DEBUG   HandlerThread:29728 [system_info.py:__init__():31] System info init
+2023-03-17 02:15:23,926 DEBUG   HandlerThread:29728 [system_info.py:__init__():46] System info init done
+2023-03-17 02:15:23,926 INFO    HandlerThread:29728 [system_monitor.py:start():183] Starting system monitor
+2023-03-17 02:15:23,926 INFO    SystemMonitor:29728 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-17 02:15:23,926 INFO    HandlerThread:29728 [system_monitor.py:probe():204] Collecting system info
+2023-03-17 02:15:23,930 DEBUG   HandlerThread:29728 [system_info.py:probe():195] Probing system
+2023-03-17 02:15:23,930 INFO    SystemMonitor:29728 [interfaces.py:start():187] Started cpu monitoring
+2023-03-17 02:15:23,930 INFO    SystemMonitor:29728 [interfaces.py:start():187] Started disk monitoring
+2023-03-17 02:15:23,931 INFO    SystemMonitor:29728 [interfaces.py:start():187] Started gpu monitoring
+2023-03-17 02:15:23,931 INFO    SystemMonitor:29728 [interfaces.py:start():187] Started memory monitoring
+2023-03-17 02:15:23,938 DEBUG   HandlerThread:29728 [system_info.py:_probe_git():180] Probing git
+2023-03-17 02:15:23,938 INFO    SystemMonitor:29728 [interfaces.py:start():187] Started network monitoring
+2023-03-17 02:15:23,989 DEBUG   HandlerThread:29728 [system_info.py:_probe_git():188] Probing git done
+2023-03-17 02:15:23,989 DEBUG   HandlerThread:29728 [system_info.py:probe():240] Probing system done
+2023-03-17 02:15:23,989 DEBUG   HandlerThread:29728 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.12', 'heartbeatAt': '2023-03-16T16:15:23.930664', 'startedAt': '2023-03-16T16:15:18.048164', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/thomasnapier/AudioHandling.git', 'commit': '76c6dcb921022a640c3f649697c31dd249c04e57'}, 'email': 'thomas.napier@my.jcu.edu.au', 'root': 'c:/Users/Thomas/AudioHandling', 'host': 'NapierPC', 'username': 'Thomas', 'executable': 'c:\\Users\\Thomas\\conda\\envs\\audio\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'total': 930.9460792541504, 'used': 810.418586730957}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.781356811523438}}
+2023-03-17 02:15:23,990 INFO    HandlerThread:29728 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-17 02:15:23,990 INFO    HandlerThread:29728 [system_monitor.py:probe():217] Publishing system info
+2023-03-17 02:15:23,990 DEBUG   HandlerThread:29728 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-17 02:15:23,990 DEBUG   HandlerThread:29728 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-17 02:15:23,990 DEBUG   HandlerThread:29728 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-17 02:15:24,833 INFO    Thread-31 :29728 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files\wandb-summary.json
+2023-03-17 02:15:24,833 INFO    Thread-31 :29728 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files\conda-environment.yaml
+2023-03-17 02:15:24,833 INFO    Thread-31 :29728 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files\requirements.txt
+2023-03-17 02:15:25,352 DEBUG   HandlerThread:29728 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-17 02:15:25,353 INFO    HandlerThread:29728 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-17 02:15:25,353 DEBUG   SenderThread:29728 [sender.py:send():336] send: files
+2023-03-17 02:15:25,353 INFO    SenderThread:29728 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-17 02:15:25,360 DEBUG   HandlerThread:29728 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-17 02:15:25,361 DEBUG   SenderThread:29728 [sender.py:send_request():363] send_request: stop_status
+2023-03-17 02:15:25,669 DEBUG   SenderThread:29728 [sender.py:send():336] send: telemetry
+2023-03-17 02:15:25,839 INFO    Thread-31 :29728 [dir_watcher.py:_on_file_modified():295] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files\conda-environment.yaml
+2023-03-17 02:15:25,839 INFO    Thread-31 :29728 [dir_watcher.py:_on_file_created():278] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230317_021518-mxlrj8em\files\wandb-metadata.json
+2023-03-17 02:15:26,247 INFO    wandb-upload_0:29728 [upload_job.py:push():138] Uploaded file C:\Users\Thomas\AppData\Local\Temp\tmp2wyrgv28wandb\w7wiippv-wandb-metadata.json
+2023-03-17 02:15:28,676 DEBUG   HandlerThread:29728 [handler.py:handle_request():144] handle_request: status_report

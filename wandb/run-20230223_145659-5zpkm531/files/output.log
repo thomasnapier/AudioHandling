@@ -1,0 +1,14 @@
+c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\tqdm\auto.py:22: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+Starting Training
+epoch: 00, loss: 6.23628
+epoch: 01, loss: 6.21310
+epoch: 02, loss: 6.19808
+epoch: 03, loss: 6.18699
+epoch: 04, loss: 6.13887
+epoch: 05, loss: 6.11303
+epoch: 06, loss: 6.10094
+epoch: 07, loss: 6.08965
+epoch: 08, loss: 6.04966
+epoch: 09, loss: 6.05189
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

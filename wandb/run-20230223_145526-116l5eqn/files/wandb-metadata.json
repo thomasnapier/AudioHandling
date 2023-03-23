@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-02-23T04:55:32.820124",
+    "startedAt": "2023-02-23T04:55:26.689031",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/thomasnapier/AudioHandling.git",
+        "commit": "76c6dcb921022a640c3f649697c31dd249c04e57"
+    },
+    "email": "thomas.napier@my.jcu.edu.au",
+    "root": "c:/Users/Thomas/AudioHandling",
+    "host": "NapierPC",
+    "username": "Thomas",
+    "executable": "c:\\Users\\Thomas\\conda\\envs\\audiohandling\\python.exe"
+}

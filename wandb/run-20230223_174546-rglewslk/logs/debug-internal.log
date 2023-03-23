@@ -1,0 +1,232 @@
+2023-02-23 17:45:54,636 INFO    StreamThr :26632 [internal.py:wandb_internal():87] W&B internal server running at pid: 26632, started at: 2023-02-23 17:45:54.636444
+2023-02-23 17:45:54,637 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status
+2023-02-23 17:45:54,638 INFO    WriterThread:26632 [datastore.py:open_for_write():85] open: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\run-rglewslk.wandb
+2023-02-23 17:45:54,639 DEBUG   SenderThread:26632 [sender.py:send():336] send: header
+2023-02-23 17:45:54,639 DEBUG   SenderThread:26632 [sender.py:send():336] send: run
+2023-02-23 17:45:55,252 INFO    SenderThread:26632 [dir_watcher.py:__init__():216] watching files in: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files
+2023-02-23 17:45:55,253 INFO    SenderThread:26632 [sender.py:_start_run_threads():1067] run started: rglewslk with start time 1677138353.6442
+2023-02-23 17:45:55,253 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: summary_record
+2023-02-23 17:45:55,253 INFO    SenderThread:26632 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-23 17:45:55,254 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: check_version
+2023-02-23 17:45:55,254 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: check_version
+2023-02-23 17:45:55,345 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: run_start
+2023-02-23 17:45:55,351 DEBUG   HandlerThread:26632 [system_info.py:__init__():31] System info init
+2023-02-23 17:45:55,351 DEBUG   HandlerThread:26632 [system_info.py:__init__():46] System info init done
+2023-02-23 17:45:55,351 INFO    HandlerThread:26632 [system_monitor.py:start():151] Starting system monitor
+2023-02-23 17:45:55,351 INFO    SystemMonitor:26632 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-23 17:45:55,351 INFO    HandlerThread:26632 [system_monitor.py:probe():172] Collecting system info
+2023-02-23 17:45:55,355 INFO    SystemMonitor:26632 [interfaces.py:start():168] Started cpu
+2023-02-23 17:45:55,355 INFO    SystemMonitor:26632 [interfaces.py:start():168] Started disk
+2023-02-23 17:45:55,356 INFO    SystemMonitor:26632 [interfaces.py:start():168] Started gpu
+2023-02-23 17:45:55,356 INFO    SystemMonitor:26632 [interfaces.py:start():168] Started memory
+2023-02-23 17:45:55,362 INFO    SystemMonitor:26632 [interfaces.py:start():168] Started network
+2023-02-23 17:45:55,362 DEBUG   HandlerThread:26632 [system_info.py:probe():195] Probing system
+2023-02-23 17:45:55,363 DEBUG   HandlerThread:26632 [system_info.py:_probe_git():180] Probing git
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_info.py:_probe_git():188] Probing git done
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_info.py:probe():241] Probing system done
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.12', 'heartbeatAt': '2023-02-23T07:45:55.362550', 'startedAt': '2023-02-23T07:45:46.861180', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/thomasnapier/AudioHandling.git', 'commit': '76c6dcb921022a640c3f649697c31dd249c04e57'}, 'email': 'thomas.napier@my.jcu.edu.au', 'root': 'c:/Users/Thomas/AudioHandling', 'host': 'NapierPC', 'username': 'Thomas', 'executable': 'c:\\Users\\Thomas\\conda\\envs\\audiohandling\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'total': 930.9460792541504, 'used': 750.8100624084473}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 31.781356811523438}}
+2023-02-23 17:45:55,405 INFO    HandlerThread:26632 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-23 17:45:55,405 INFO    HandlerThread:26632 [system_monitor.py:probe():185] Publishing system info
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-23 17:45:55,405 DEBUG   HandlerThread:26632 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-23 17:45:56,260 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\requirements.txt
+2023-02-23 17:45:56,260 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\wandb-summary.json
+2023-02-23 17:45:56,260 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\conda-environment.yaml
+2023-02-23 17:45:59,281 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\conda-environment.yaml
+2023-02-23 17:45:59,315 DEBUG   HandlerThread:26632 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-23 17:45:59,315 INFO    HandlerThread:26632 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-23 17:45:59,316 DEBUG   SenderThread:26632 [sender.py:send():336] send: files
+2023-02-23 17:45:59,316 INFO    SenderThread:26632 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-23 17:45:59,322 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-23 17:45:59,322 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: stop_status
+2023-02-23 17:45:59,645 DEBUG   SenderThread:26632 [sender.py:send():336] send: telemetry
+2023-02-23 17:45:59,645 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:00,162 INFO    wandb-upload_0:26632 [upload_job.py:push():138] Uploaded file C:\Users\Thomas\AppData\Local\Temp\tmpcw9rrlbgwandb\7lknqa7d-wandb-metadata.json
+2023-02-23 17:46:00,288 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\output.log
+2023-02-23 17:46:00,289 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\wandb-metadata.json
+2023-02-23 17:46:02,302 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\output.log
+2023-02-23 17:46:04,688 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:09,723 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:14,323 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:14,323 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:14,757 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:19,349 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:19,781 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:24,360 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:24,794 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:25,424 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\config.yaml
+2023-02-23 17:46:29,371 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:30,142 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:34,391 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:35,165 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:39,410 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:40,180 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:44,429 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:45,201 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:49,444 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:46:50,216 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:51,603 DEBUG   SenderThread:26632 [sender.py:send():336] send: telemetry
+2023-02-23 17:46:51,604 DEBUG   SenderThread:26632 [sender.py:send():336] send: exit
+2023-02-23 17:46:51,604 INFO    SenderThread:26632 [sender.py:send_exit():559] handling exit code: 0
+2023-02-23 17:46:51,604 INFO    SenderThread:26632 [sender.py:send_exit():561] handling runtime: 56
+2023-02-23 17:46:51,604 INFO    SenderThread:26632 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-23 17:46:51,605 INFO    SenderThread:26632 [sender.py:send_exit():567] send defer
+2023-02-23 17:46:51,605 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,605 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-23 17:46:51,605 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,605 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-23 17:46:51,605 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 1
+2023-02-23 17:46:51,605 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,605 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-23 17:46:51,605 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,605 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-23 17:46:51,605 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 2
+2023-02-23 17:46:51,606 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,606 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-23 17:46:51,606 INFO    HandlerThread:26632 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-23 17:46:51,606 DEBUG   SystemMonitor:26632 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-23 17:46:51,612 INFO    HandlerThread:26632 [interfaces.py:finish():175] Joined cpu
+2023-02-23 17:46:51,612 DEBUG   SystemMonitor:26632 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-23 17:46:51,612 INFO    HandlerThread:26632 [interfaces.py:finish():175] Joined disk
+2023-02-23 17:46:51,612 DEBUG   SystemMonitor:26632 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-23 17:46:51,646 INFO    HandlerThread:26632 [interfaces.py:finish():175] Joined gpu
+2023-02-23 17:46:51,646 INFO    HandlerThread:26632 [interfaces.py:finish():175] Joined memory
+2023-02-23 17:46:51,646 INFO    HandlerThread:26632 [interfaces.py:finish():175] Joined network
+2023-02-23 17:46:51,646 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,646 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-23 17:46:51,646 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 3
+2023-02-23 17:46:51,646 DEBUG   SenderThread:26632 [sender.py:send():336] send: stats
+2023-02-23 17:46:51,647 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,647 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-23 17:46:51,647 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,647 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-23 17:46:51,647 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 4
+2023-02-23 17:46:51,647 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,647 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-23 17:46:51,647 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,647 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-23 17:46:51,647 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 5
+2023-02-23 17:46:51,647 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,647 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-23 17:46:51,647 DEBUG   SenderThread:26632 [sender.py:send():336] send: summary
+2023-02-23 17:46:51,648 INFO    SenderThread:26632 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-23 17:46:51,648 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,648 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-23 17:46:51,648 INFO    SenderThread:26632 [sender.py:transition_state():587] send defer: 6
+2023-02-23 17:46:51,648 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: defer
+2023-02-23 17:46:51,648 INFO    HandlerThread:26632 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-23 17:46:51,648 DEBUG   SenderThread:26632 [sender.py:send_request():363] send_request: defer
+2023-02-23 17:46:51,648 INFO    SenderThread:26632 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-23 17:46:51,650 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: status_report
+2023-02-23 17:46:52,094 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:46:52,094 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:46:52,519 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\wandb-summary.json
+2023-02-23 17:46:52,611 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-23 17:46:53,537 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:46:53,537 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:46:54,527 INFO    Thread-31 :26632 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\files\output.log
+2023-02-23 17:46:56,323 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:46:56,323 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:46:56,323 INFO    SenderThread:26632 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\requests\models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-02-23 17:46:57,642 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:00,949 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:47:00,949 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:47:02,655 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:07,667 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:11,163 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:47:11,163 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:47:12,677 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:17,690 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:22,712 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:27,745 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:29,573 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:47:29,573 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:47:32,769 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:37,786 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:42,800 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:47,818 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:52,836 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:47:57,851 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:02,868 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:03,770 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:48:03,770 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:48:07,881 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:12,898 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:17,918 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:22,945 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:27,964 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:32,992 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:38,017 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:43,030 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:48,056 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:53,076 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:48:58,095 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:49:03,114 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:49:08,127 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:49:13,143 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:49:18,171 DEBUG   HandlerThread:26632 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-23 17:49:18,913 ERROR   SenderThread:26632 [internal_api.py:execute():245] 409 response executing GraphQL.
+2023-02-23 17:49:18,913 ERROR   SenderThread:26632 [internal_api.py:execute():246] {"errors":[{"message":"run tnapier/a2o-swav-lightly/rglewslk was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-23 17:49:19,176 INFO    HandlerThread:26632 [handler.py:finish():841] shutting down handler
+2023-02-23 17:49:19,176 INFO    WriterThread:26632 [datastore.py:close():299] close: c:\Users\Thomas\AudioHandling\wandb\run-20230223_174546-rglewslk\run-rglewslk.wandb
+2023-02-23 17:49:19,439 ERROR   StreamThr :26632 [internal.py:wandb_internal():175] Thread SenderThread:
+Traceback (most recent call last):
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\apis\normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1593, in upsert_run
+    response = self.gql(
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_api.py", line 214, in gql
+    ret = self._retry_gql(
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\requests\models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_util.py", line 49, in run
+    self._run()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal_util.py", line 100, in _run
+    self._process(record)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\internal.py", line 329, in _process
+    self._sm.send(record)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 343, in send
+    send_handler(record)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 365, in send_request
+    send_handler(record)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 609, in send_request_defer
+    self.debounce(final=True)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 512, in debounce
+    self._maybe_update_config(always=final)
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 489, in _maybe_update_config
+    self._debounce_config()
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\sdk\internal\sender.py", line 518, in _debounce_config
+    self._api.upsert_run(
+  File "c:\Users\Thomas\conda\envs\audiohandling\lib\site-packages\wandb\apis\normalize.py", line 28, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>

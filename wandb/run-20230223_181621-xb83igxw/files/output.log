@@ -1,0 +1,13 @@
+
+Starting Training
+epoch: 00, loss: 6.22775
+epoch: 01, loss: 6.20125
+epoch: 02, loss: 6.19572
+epoch: 03, loss: 6.16902
+epoch: 04, loss: 6.16474
+epoch: 05, loss: 6.13243
+epoch: 06, loss: 6.13614
+epoch: 07, loss: 6.11610
+epoch: 08, loss: 6.09438
+epoch: 09, loss: 6.06060
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

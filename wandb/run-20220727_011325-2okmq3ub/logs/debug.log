@@ -1,0 +1,5 @@
+2022-07-27 01:13:25,537 INFO    MainThread:16288 [wandb_setup.py:_flush():76] Configure stats pid to 16288
+2022-07-27 01:13:25,538 INFO    MainThread:16288 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Thomas\.config\wandb\settings
+2022-07-27 01:13:25,538 INFO    MainThread:16288 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Thomas\AudioHandling\wandb\settings
+2022-07-27 01:13:25,538 INFO    MainThread:16288 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-27 01:13:25,538 INFO    MainThread:16288 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
