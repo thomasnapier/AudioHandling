@@ -1,4 +1,4 @@
-x,y,sound_file,class_label
+x,y,sound_path,class
 3.73E+01,-3.10E+01,D:\PhD-data\Wambiana - Processed\anthrophony\audio_segment_dryA100_1.wav,anthrophony
 3.55E+01,-3.18E+01,D:\PhD-data\Wambiana - Processed\anthrophony\audio_segment_dryA100_10.wav,anthrophony
 3.68E+01,-3.16E+01,D:\PhD-data\Wambiana - Processed\anthrophony\audio_segment_dryA100_11.wav,anthrophony
