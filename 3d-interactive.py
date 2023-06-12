@@ -10,7 +10,7 @@ import pygame
 import csv
 
 # Read in data from CSV file
-df = pd.read_csv('tarcutta-3d.csv')
+df = pd.read_csv('umap-wambiana-3D.csv')
 
 # Initialize Pygame mixer for playing audio
 pygame.mixer.init()
