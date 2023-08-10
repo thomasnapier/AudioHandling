@@ -10,7 +10,7 @@ import pygame
 import csv
 
 # Read in data from CSV file
-df = pd.read_csv('tarcutta-only.csv')
+df = pd.read_csv('umap-Wambiana-WetB-20min-full-day.csv')
 
 # Initialize Pygame mixer for playing audio
 pygame.mixer.init()
@@ -21,7 +21,7 @@ for c in df['class'].unique():
     dfi = df[df['class'] == c]
     fig.add_trace(go.Scatter3d(x=dfi['x'], y = dfi['y'], z = dfi['z'],
                                mode = 'markers',
-                               name = c,
+                               name = str(c),
                                customdata = dfi['sound_path'],
                                marker=dict(
                                         size=2),
